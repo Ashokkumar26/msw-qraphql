@@ -3,3 +3,10 @@
 // expect(element).toHaveTextContent(/react/i)
 // learn more: https://github.com/testing-library/jest-dom
 import '@testing-library/jest-dom';
+// import "../jest.polyfills.js"
+// import { worker } from "./mocks/browser"
+
+// beforeAll(()=> worker.start())
+
+// afterEach(()=>worker.resetHandlers())
+// afterAll(()=> worker.stop())
